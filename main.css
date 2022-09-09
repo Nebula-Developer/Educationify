@@ -1,0 +1,158 @@
+#header {
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.2s ease, border-radius 0.2s ease;
+    top: 0;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.409);
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none !important;
+    transition: text-decoration 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+#menu {
+    flex-direction: column;
+    display: flex !important;
+}
+
+.ic-app-header__menu-list-link {
+    transition: 0s ease !important;
+}
+
+.sidebar-listener:hover #header {
+    transform: translateX(5px);
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.sidebar-listener {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    pointer-events: all;
+}
+
+.sidebar-listener-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 65px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.menu-item__text {
+    display: none !important;
+}
+
+.ic-app-header__logomark-container {
+    display: none !important;
+}
+
+#primaryNavToggle {
+    display: none;
+}
+
+#wrapper {
+    width: 100%;
+    margin-left: 0;
+}
+
+body {
+    user-select: none;
+}
+
+body * {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: normal !important;
+}
+
+.ic-DashboardCard__box__container {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    grid-gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#dashboard_header_container {
+    position: relative !important;
+}
+
+.ic-DashboardCard {
+    transition: 0.5s ease !important;
+}
+
+.events_list.recent_feedback {
+    background: rgba(54, 54, 54, 0.018) !important;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.event-details::after {
+    content: "";
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+#nav-tray-portal:nth-child(0):nth-child(0) {
+    transition: 0.1s ease !important;
+}
+
+.large.ic-Dashboard-header__layout {
+    background: transparent !important;
+}
+
+#crumb_course_5011 {
+    display: none !important;
+}
+
+.header-bar.page-toolbar.as-course-home {
+    background: transparent !important;
+}
+
+#courseMenuToggle {
+    display: none !important;
+}
+
+#left-side {
+    display: block !important;
+}
+
+.ic-app-nav-toggle-and-crumbs.no-print {
+    display: none !important;
+}
+
+.footer-logo.ic-app-footer__logo-link {
+    display: none !important;
+}
+
+.educationify-footer-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.educationify-footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+}

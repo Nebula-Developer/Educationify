@@ -1,0 +1,7 @@
+# .HTACCESS FILE
+
+# DIssallow access to every FILE
+<Files ~ ".*">
+    Order allow,deny
+    Deny from all
+</Files>
